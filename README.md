@@ -13,4 +13,4 @@ Kavachi AI is a cybersecurity project leveraging machine learning techniques to 
 ## Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/kavachi-ai.git
+   git clone (https://github.com/thechiranjeevvyas/kavach-ai-using-ml/)
