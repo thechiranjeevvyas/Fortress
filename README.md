@@ -8,10 +8,6 @@ Welcome to **Kavach AI**, an advanced antivirus solution powered by cutting-edge
 - [Features](#features)
 - [Installation](#installation)
 - [Tech Stack](#tech-stack)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Project Overview
 
@@ -19,11 +15,23 @@ Welcome to **Kavach AI**, an advanced antivirus solution powered by cutting-edge
 
 ## Features
 
-- **Machine Learning Powered**: Utilizes advanced ML algorithms to detect and prevent malware.
-- **Real-time Scanning**: Continuous monitoring for potential threats.
-- **User-friendly Interface**: Intuitive GUI built with Django for easy interaction.
-- **Detailed Reports**: Comprehensive analysis of detected threats.
-- **Regular Updates**: Frequently updated to adapt to new types of malware.
+- **Machine Learning-based Detection**: Uses ML models to identify both known and unknown malware.
+- **Hashing Techniques**: Compares file hashes against a database of known malware signatures for quick identification.
+- **Heuristic Analysis**: Detects suspicious behavior patterns to identify previously unseen threats.
+- **User-friendly Interface**: Built using Django to provide an easy-to-navigate GUI.
+- **Real-time Protection**: Monitors system activity and prevents malicious files from executing.
+
+## Tech Stack
+- **Programming Language:** Python 3.8+
+- **Framework:** Django 3.2+ (for GUI and backend)
+- **Machine Learning Libraries:**
+- **Scikit-learn** 0.24+
+- **TensorFlow** 2.5+
+- **Pandas** 1.3+
+- **NumPy **1.21+
+- **Hash Technique:** SHA-256 hashing to identify known malicious files.
+- **Heuristic Approach:** Detects abnormal system behavior or file attributes to identify potential new threats.
+
 
 ## Installation
 
@@ -39,4 +47,6 @@ Ensure you have the following installed on your system:
 
 ```bash
 git clone https://github.com/thechiranjeevvyas/kavach-ai-using-ml.git
-cd kavach-ai
+cd kavach-ai 
+
+
